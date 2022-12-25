@@ -1,0 +1,282 @@
+/* This is universal css add all the style here and refrain from adding style somewhere else */
+* {
+  
+  margin: 0;
+}
+
+#dp {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow-y: auto;
+}
+.leaflet-container {
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  /* position: absolute; */
+}
+
+#map-id2{
+  height: 50vh;
+}
+.header {
+  margin: 0;
+  padding: 10px;
+  /* box-shadow: 3px 3px 5px 3px #ccc; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-button {
+  padding: 0;
+  border: none;
+  background-color: white;
+  -webkit-filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.09019607843137255));
+filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.09019607843137255));
+  margin-right: 4.5%;
+  width: 75px;
+  padding: 10%;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  margin: 30vh auto;
+  max-width: 380px;
+  width: 90vw;
+}
+
+
+button.icon {
+  border: none;
+  background: url("./utils/google2.png") transparent 5px 50%
+    no-repeat;
+  display: block;
+  margin: auto;
+  width: 53px;
+  height: 42px;
+}
+
+button.icon:hover {
+  cursor: pointer;
+}
+
+input {
+  height: 2rem;
+  margin: 2px;
+  padding: 2px;
+}
+
+#or {
+  margin: 10px auto;
+  font-weight: bold;
+}
+
+.login-signup-btn {
+  border: none;
+  background-color: #fff;
+  display: block;
+  margin: 20px auto;
+}
+
+.login-signup-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.features-nav {
+  display: flex;
+  max-width: 380px;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.features-nav > * {
+  margin: 2px;
+  padding: 2px 5px;
+}
+
+.marker {
+  border-radius: 100%;
+}
+
+.leaflet-marker-icon {
+  background: none;
+  border: none;
+}
+
+
+
+
+.makeStyles-toolbar-5{
+  display: none;
+}
+
+.MuiTypography-displayBlock {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.sheet{
+  position: absolute;
+top: 60px;
+height: calc(100% - 104px);
+box-sizing: border-box;
+background: #f5dde9;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+overflow: hidden;
+/* display: block; */
+width: 320px;
+z-index: 1;
+margin-left: 5%;
+}
+.sheet2{
+  position: absolute;
+  bottom: 40px;
+box-sizing: border-box;
+border-radius: 10px;
+overflow: hidden;
+/* display: block; */
+width: 320px;
+z-index: 1;
+margin-left: 5%;
+}
+
+
+.flex-container{
+  display: flex;
+  overflow: hidden;
+
+}
+.wrapper-1{
+  /* margin:0 auto;
+  width: 25%; */
+  /* flex-grow: 1; */
+}
+
+.wrapper-2{
+  /* margin: 0 auto;
+  position: relative;
+  width:75%; */
+  flex-grow: 100;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .sheet{
+    margin-left: 10%;
+    margin-right:10%;
+    width:80%
+  }
+  .sheet2{
+    margin-left: 10%;
+    margin-right:10%;
+    width:80%
+  }
+}
+
+@media only screen and (max-width: 400px) {
+/* .wrapper-2{
+  width: 100%;
+  margin: 0 !important;
+} */
+
+.sheet{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.sheet2{
+  /* left:10px; */
+  /* margin-right:auto; */
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: absolute;
+
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 775px) {
+  
+  .sheet2{
+    position: absolute;
+  }
+}
+/* @media only screen and (min-width: 1025px) {
+  .wrapper-1{
+    width: 15%;
+  }
+  .wrapper-2{
+    width: 85%;
+    margin-left: 15%;
+  }
+  .sheet{
+    margin-left: 15%;
+  }
+ 
+} */
+/* ==================================================================calender */
+
+.flex-col-scroll2 {
+  flex-grow: 1;
+  overflow: auto;
+  min-height: 100%;
+}
+@media only screen and (max-width: 600px) {
+
+
+  #flex-col-scroll1 {
+    width:0%;
+  }
+}
+
+.screenshot20 {
+  position: absolute;
+    box-sizing: border-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0.00px;
+    margin-right: 0.00px;
+    margin-bottom: 0.00px;
+    margin-left: 0.00px;
+    padding-top: 0.00px;
+    padding-right: 0.00px;
+    padding-bottom: 0.00px;
+    padding-left: 0.00px;
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(112, 112, 112, 1);
+        stroke-width: 1.00px;
+        stroke-linecap: butt;
+    box-shadow: none;
+    width: 112.00px;
+  height: 112.00px;
+  left: 187.00px;
+  top: 21.00px;
+  
+  }

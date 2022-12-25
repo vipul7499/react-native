@@ -1,0 +1,80 @@
+{
+  "name": "her-hygiene-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@mui-treasury/components": "^1.7.0",
+    "@nivo/bar": "^0.62.0",
+    "@nivo/pie": "^0.62.0",
+    "@reach/router": "^1.3.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "date-fns": "^2.14.0",
+    "firebase": "^7.14.4",
+    "idb-keyval": "^3.2.0",
+    "leaflet": "^1.6.0",
+    "leaflet-offline": "^1.1.0",
+    "leaflet-routing-machine": "^3.2.12",
+    "localforage": "^1.9.0",
+    "lrm-google": "^1.0.1",
+    "moment": "^2.26.0",
+    "ngeohash": "^0.6.3",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-awesome-button": "^6.5.1",
+    "react-date-range": "^1.0.3",
+    "react-dom": "^16.13.1",
+    "react-firebaseui": "^4.1.0",
+    "react-ga": "^3.1.2",
+    "react-leaflet": "^2.7.0",
+    "react-owl-carousel": "^2.3.1",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-script-tag": "^1.1.2",
+    "react-scripts": "3.4.1",
+    "react-scrollbar": "^0.5.6",
+    "react-spinners": "^0.9.0",
+    "react-spring": "^9.0.0-beta.32",
+    "react-swipeable": "^5.5.1",
+    "react-swipeable-bottom-sheet": "^1.1.1",
+    "react-swipeable-views": "^0.13.9",
+    "react-use-gesture": "^7.0.15",
+    "react-webcam": "^5.2.0",
+    "reactstrap": "^8.5.1",
+    "recharts": "^1.8.5",
+    "video-react": "^0.14.1"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "serve": "^11.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

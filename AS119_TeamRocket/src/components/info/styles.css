@@ -1,0 +1,62 @@
+
+
+.leaflet-container .dash {
+    height: 100vh;
+    width: 50%;
+    z-index: 1;
+    /* position: absolute; */
+  }
+
+  .TextInfoContent-heading-48{
+    font-size: 1.5rem;
+  }
+  .MuiGridListTileBar-title{
+    font-size: 1.25rem !important;
+    font-weight: 600;
+  }
+
+  @media only screen and (max-width: 600px)
+  {
+    .MuiGridListTile-root{
+      width: 100% !important;
+    }
+  }
+
+  .video-react-video{
+    width: 100%;
+    height: 400px;
+  }
+  .video-react-controls-enabled, .video-react-paused, .video-react-fluid, .video-react-user-inactive, .video-react-workinghover, .video-react{
+    padding:0 !important;
+  }
+  .video-react-big-play-button, .video-react-big-play-button-left{
+   border: none;
+  padding: 10px 20px;
+  background-color: #ef5779;
+  color: white;
+  margin-bottom: 1%;
+  margin-left: 45%;
+    margin-top: 2%;
+  }
+  @media only screen and (max-width: 600px){
+    .video-react-big-play-button, .video-react-big-play-button-left{
+      margin-left: 35%;
+    }
+  }
+  /* .video-react-play-control ,.video-react-control ,.video-react-button ,.video-react-paused{
+    border: none;
+  padding: 10px 20px;
+  background-color: #ef5779;
+  color: white;
+  margin-bottom: 1%
+  } */
+  .video-react-control-bar .video-react-control-bar-auto-hide{
+    display: none !important;
+  }
+
+  @media only screen and (max-width: 600px){
+    iframe{
+      width: 100%;
+    }
+  }
+  

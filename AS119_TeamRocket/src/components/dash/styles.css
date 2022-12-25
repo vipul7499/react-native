@@ -1,0 +1,12 @@
+
+
+.leaflet-container .dash {
+    height: 100vh;
+    width: 50%;
+    z-index: 1;
+    /* position: absolute; */
+  }
+
+  .TextInfoContent-heading-48{
+    font-size: 1.5rem;
+  }

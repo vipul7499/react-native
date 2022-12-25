@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title = "Profile" />
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title= "Log" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Weather" />
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_tips_to_use"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tips to use" />
+    </group>
+</menu>

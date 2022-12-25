@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+	font-family: 'Open Sans', arial, sans-serif;
+}
+
+body {
+	overflow-x: auto;
+	background-color: #ffffff !important; 
+	/* deliberately made white for now as color is conflicting with post login and makes it unreadable --KANISHK, please make it white later*/
+
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+}
+
+p {
+	font-size: 13px;
+	line-height: 22px;
+	color: #4a4a4a;
+}
+
+
+.buttons{
+  margin-top: 5em;
+}
+.white-border-button-1  {
+  /* margin-top: 50%; */
+	margin-left: 33%;
+	padding: 14px 20px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.white-border-button-2 {
+	margin-left: 0.5%;
+	padding: 14px 20px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+
+.banner .col-md-8 {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.banner .col-md-4 {
+	padding-right: 0px;
+	padding-left: 5px;
+}
+

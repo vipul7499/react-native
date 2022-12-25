@@ -1,0 +1,29 @@
+
+
+.leaflet-container .dash {
+    height: 100vh;
+    width: 50%;
+    z-index: 1;
+    /* position: absolute; */
+  }
+
+ #filled-basic{
+   background-color: white;
+ }
+
+  section{
+  text-align: center;
+  
+  }
+
+  @media only screen and  (max-width: 600px)
+  {
+    #table{
+        overflow-x: scroll;
+    }
+  }
+
+  .MuiInputLabel-outlined.MuiInputLabel-shrink{
+    font-size: 1.5rem;
+  }
+  
